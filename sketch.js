@@ -16,7 +16,7 @@ img = loadImage("image.png")
 
 function setup(){
 //create a canvas
-canvas = createCanvas(displayWidth,displayHeight); 
+canvas = createCanvas(displayWidth-1100,displayHeight-200); 
 database = firebase.database();
 
 //form = new Form();
